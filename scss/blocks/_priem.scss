@@ -1,0 +1,64 @@
+.priem{
+    
+    &-title{
+        font-weight: 800;
+        color: #000 !important;
+        padding-left: 17px;
+        margin-bottom: 55px;
+        // display: flex;
+    }
+
+    &-blocks{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+        &__item{
+            margin: 15px;
+            min-width: 281px;
+        }
+
+        &__item-img{
+            margin-bottom: 15px;
+        }
+        
+    }
+
+}
+
+
+.zak{
+    margin-bottom: 26px;
+}
+
+
+.green{
+    display: block;
+}
+
+.priem-svg{
+    width: 50px;
+    fill: #f8c3c8;
+}
+
+.priem-blocks__item{
+    background-color: #fff;
+    min-height: 130px;
+    padding: 23px;
+    margin: 0 16px;
+    &:hover{
+        transform: scale(1.2);
+        cursor: pointer;
+        transition: 0.3s;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        & .priem-svg{
+            fill: #ff6470;
+        }
+    }
+}
+
+.green{
+    color: green;
+    font-weight: bold;
+    display: inline-block;
+}

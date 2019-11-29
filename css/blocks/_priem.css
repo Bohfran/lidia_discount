@@ -1,0 +1,23 @@
+.priem-title {
+  font-weight: 800;
+  color: #000 !important;
+  padding-left: 17px;
+  margin-bottom: 55px; }
+
+.priem-blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .priem-blocks__item {
+    margin: 15px;
+    min-width: 281px; }
+  .priem-blocks__item-img {
+    margin-bottom: 15px; }
+
+.zak {
+  margin-bottom: 26px; }
